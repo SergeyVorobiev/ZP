@@ -1,0 +1,81 @@
+﻿Build started 23.02.2016 17:06:44.
+     1>Project "C:\Users\Сергей\Desktop\projects\ZP\Zarplata\Zarplata.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ZP.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ZP.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChildFrm.cpp DelPerson.cpp DialogAddPerson.cpp DialogFindId.cpp DialogPicture.cpp DiaSelection.cpp EditPerson.cpp MainFrm.cpp MyCollection.cpp MyTable.cpp Person.cpp Zarplata.cpp ZarplataDoc.cpp ZarplataView.cpp
+         ZarplataView.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+     1>c:\users\сергей\desktop\projects\zp\zarplata\zarplataview.cpp(214): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\сергей\desktop\projects\zp\zarplata\zarplataview.cpp(215): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         ZarplataDoc.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         Zarplata.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         Person.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\person.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\сергей\desktop\projects\zp\zarplata\person.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\сергей\desktop\projects\zp\zarplata\person.cpp(48): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\сергей\desktop\projects\zp\zarplata\person.cpp(76): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\сергей\desktop\projects\zp\zarplata\person.cpp(105): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\сергей\desktop\projects\zp\zarplata\person.cpp(150): warning C4244: 'return' : conversion from 'const unsigned int' to 'float', possible loss of data
+         MyTable.cpp
+         MyCollection.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\mycollection.cpp(187): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\сергей\desktop\projects\zp\zarplata\mycollection.cpp(192): warning C4018: '>=' : signed/unsigned mismatch
+         MainFrm.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         EditPerson.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         DiaSelection.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         DialogPicture.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         DialogFindId.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         DialogAddPerson.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         DelPerson.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         ChildFrm.cpp
+     1>c:\users\сергей\desktop\projects\zp\zarplata\resource.h(44): warning C4005: 'IDCANCEL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : see previous definition of 'IDCANCEL'
+         Generating Code...
+     1>c:\users\сергей\desktop\projects\zp\zarplata\mycollection.cpp(131): warning C4715: 'MyCollection::getPerson' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0419" /IDebug\ /nologo /fo"Debug\Zarplata.res" Zarplata.rc 
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.rh(1365): warning RC4005: 'IDCANCEL' : redefinition
+         
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Сергей\Desktop\projects\ZP\Debug\ZP.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Сергей\Desktop\projects\ZP\Debug\ZP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Сергей\Desktop\projects\ZP\Debug\ZP.lib" /MACHINE:X86 Debug\Zarplata.res
+         Debug\ChildFrm.obj
+         Debug\DelPerson.obj
+         Debug\DialogAddPerson.obj
+         Debug\DialogFindId.obj
+         Debug\DialogPicture.obj
+         Debug\DiaSelection.obj
+         Debug\EditPerson.obj
+         Debug\MainFrm.obj
+         Debug\MyCollection.obj
+         Debug\MyTable.obj
+         Debug\Person.obj
+         Debug\stdafx.obj
+         Debug\Zarplata.obj
+         Debug\ZarplataDoc.obj
+         Debug\ZarplataView.obj
+         Zarplata.vcxproj -> C:\Users\Сергей\Desktop\projects\ZP\Debug\ZP.exe
+     1>Done Building Project "C:\Users\Сергей\Desktop\projects\ZP\Zarplata\Zarplata.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.31
